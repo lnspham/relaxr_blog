@@ -153,6 +153,8 @@ nav ul li {
   color: #033048;
   padding-top: 20px;
   padding-bottom: 20px;
+  float: right;
+  clear: right;
 
 }
 
