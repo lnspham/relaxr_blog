@@ -171,12 +171,39 @@ nav ul li {
     line-height: 60px; 
     padding-top: 4px; 
     padding-right: 8px; 
-    padding-left: 3px;}
+    padding-left: 3px;
 }
 
 aside#sidebar div ul {
   font-size: 24px;
   font-weight: 300;
+  color: #033048;
+  margin: 0;
+  padding: 0;
+}
+
+aside#sidebar div p {
+  font-size: 22px;
+  font-weight: 300;
+  padding-right: 30px;
+}
+
+aside#sidebar div a {
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #033048;
+}
+
+aside#sidebar #ad {
+  background-color: #FFF;
+  padding: 10px;
+  margin: 80px 20px 20px 0;
+  height: 600px;
+}
+
+aside#sidebar #ad h3{
+  text-align: center;
   margin: 0;
   padding: 0;
 }
