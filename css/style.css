@@ -73,7 +73,9 @@ nav {
 }
 
 article {
-
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #033048;
 }
 
 aside {
@@ -123,10 +125,6 @@ nav ul li {
   margin-right: 40px;
 }
 
-img {
-  background-size: contain;
-}
-
 #main {
   background: #f0efef;
   width: 960px;
@@ -145,8 +143,7 @@ img {
   font-size: 24px;
   font-weight: 300;
   color: #606161;
-  padding-top: 20px;
-  padding-right: 20px;
+  padding: 20px 20px 20px 0;
 }
 
 #post article a:link {
@@ -159,6 +156,12 @@ img {
 
 }
 
+#post article a:hover {
+  color: #DEA427;
+  text-decoration: underline;
+}
+
+
 #post p span {
     float: left; 
     color: #121212; 
@@ -169,10 +172,26 @@ img {
     padding-left: 3px;}
 }
 
-aside#sidebar div ul li{
+aside#sidebar div ul {
   font-size: 24px;
   font-weight: 300;
   margin: 0;
   padding: 0;
+}
+
+div.signUpButton {
+  font-size: 14px;
+  font-weight: bolder;
+  border: 1px solid #033048;
+  border-radius: 5px;
+  background-color: #033048;
+  padding: 5px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+div.signUpButton a {
+  color: #FFF;
+  text-decoration: none;
 }
 
